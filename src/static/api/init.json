@@ -1,0 +1,217 @@
+{
+  "result": {
+    "siteTypeLists": [
+      {
+        "value": "20",
+        "name": "综合门户"
+      },
+      {
+        "value": "21",
+        "name": "网址导航"
+      },
+      {
+        "value": "22",
+        "name": "积分返点"
+      },
+      {
+        "value": "23",
+        "name": "社区交友"
+      },
+      {
+        "value": "24",
+        "name": "微博"
+      },
+      {
+        "value": "25",
+        "name": "微信"
+      },
+      {
+        "value": "26",
+        "name": "自媒体"
+      },
+      {
+        "value": "27",
+        "name": "消费资讯"
+      },
+      {
+        "value": "28",
+        "name": "分享导购站"
+      },
+      {
+        "value": "29",
+        "name": "搜索比价"
+      },
+      {
+        "value": "30",
+        "name": "优惠券网站"
+      },
+      {
+        "value": "31",
+        "name": "综合商城"
+      },
+      {
+        "value": "32",
+        "name": "地方门户/信息港"
+      },
+      {
+        "value": "33",
+        "name": "海淘"
+      },
+      {
+        "value": "34",
+        "name": "母婴育儿"
+      },
+      {
+        "value": "35",
+        "name": "旅游度假"
+      },
+      {
+        "value": "36",
+        "name": "户外/保健"
+      },
+      {
+        "value": "37",
+        "name": "影音娱乐"
+      },
+      {
+        "value": "38",
+        "name": "服饰/美妆"
+      },
+      {
+        "value": "39",
+        "name": "其它"
+      },
+      {
+        "value": "40",
+        "name": "APP"
+      }
+    ],
+    "joinStatusList": [
+      {
+        "value": "",
+        "name": "全部"
+      },
+      {
+        "value": "adopt",
+        "name": "审核通过"
+      },
+      {
+        "value": "verifing",
+        "name": "待审核"
+      },
+      {
+        "value": "none",
+        "name": "未申请"
+      },
+      {
+        "value": "refuse",
+        "name": "拒绝"
+      }
+    ],
+    "positionList": [
+      {
+        "value": "",
+        "name": "全部"
+      },
+      {
+        "value": "美国",
+        "name": "美国"
+      },
+      {
+        "value": "英国",
+        "name": "英国"
+      },
+      {
+        "value": "日本",
+        "name": "日本"
+      },
+      {
+        "value": "韩国",
+        "name": "韩国"
+      },
+      {
+        "value": "德国",
+        "name": "德国"
+      },
+      {
+        "value": "法国",
+        "name": "法国"
+      },
+      {
+        "value": "澳大利亚",
+        "name": "澳大利亚"
+      },
+      {
+        "value": "香港",
+        "name": "香港"
+      },
+      {
+        "value": "新西兰",
+        "name": "新西兰"
+      },
+      {
+        "value": "新加坡",
+        "name": "新加坡"
+      },
+      {
+        "value": "台湾",
+        "name": "台湾"
+      },
+      {
+        "value": "加拿大",
+        "name": "加拿大"
+      },
+      {
+        "value": "荷兰",
+        "name": "荷兰"
+      },
+      {
+        "value": "瑞典",
+        "name": "瑞典"
+      },
+      {
+        "value": "亚太地区",
+        "name": "亚太地区"
+      },
+      {
+        "value": "澳洲",
+        "name": "澳洲"
+      },
+      {
+        "value": "其它",
+        "name": "其它"
+      }
+    ],
+    "ProcessTypeLists": [
+      {
+        "value": "1",
+        "name": "项目流程"
+      },
+      {
+        "value": "2",
+        "name": "金额流程"
+      }
+    ],
+    "IsAllLists": [
+      {
+        "value": "1",
+        "name": "是"
+      },
+      {
+        "value": "2",
+        "name": "否"
+      }
+    ],
+    "IsDefaultLists": [
+      {
+        "value": "1",
+        "name": "默认状态"
+      },
+      {
+        "value": "0",
+        "name": "自定义状态"
+      }
+    ]
+  },
+  "success": "200"
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OA登录</title>
+    <link href="../static/css/login.css" rel="stylesheet">
+    <script src="../static/js/lib/jquery.min.js"></script>
+    <script src="../static/js/common.js"></script>
+    <script src="../static/js/lib/layer/layer.js"></script>
+    <script src="../static/js/lib/md5.js"></script>
+    <script src="../static/js/lib/particles.js"></script>
+    <script src="../static/js/login.js"></script>
+</head>
+<body>
+
+    <div id="particles"></div>
+    <div class="ycmedia">
+        <h1>银橙OA数据系统</h1>
+        <section>
+
+            <div class="form">
+
+                <input type="text" placeholder="请输入用户名" class="noBottomBorder" id="loginName">
+
+                <input type="password" placeholder="请输入密码" id="password">
+              <!--  <input type="text" placeholder="请输入验证码" class="noTopBorder" id="vertity" maxlength="4">-->
+               <!-- <img id="imgVerifyCode">-->
+            </div>
+
+            <button class="btn" id="btn">登录</button>
+
+        </section>
+    </div>
+
+</body>
+
+<script>
+    particlesJS("particles", {
+        "particles": {
+            "number": {
+                "value": 30,
+                "density": {
+                    "enable": true,
+                    "value_area": 800
+                }
+            },
+            "color": {
+                "value": "#e3e3e3"
+            },
+            "shape": {
+                "type": "circle",
+                "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                },
+                "polygon": {
+                    "nb_sides": 5
+                },
+                "image": {
+                    "src": "img/github.svg",
+                    "width": 100,
+                    "height": 100
+                }
+            },
+            "opacity": {
+                "value": 0.5,
+                "random": false,
+                "anim": {
+                    "enable": false,
+                    "speed": 1,
+                    "opacity_min": 0.1,
+                    "sync": false
+                }
+            },
+            "size": {
+                "value": 10,
+                "random": true,
+                "anim": {
+                    "enable": false,
+                    "speed": 50,
+                    "size_min": 0.1,
+                    "sync": false
+                }
+            },
+            "line_linked": {
+                "enable": true,
+                "distance": 300,
+                "color": "#e3e3e3",
+                "opacity": 0.4,
+                "width": 2
+            },
+            "move": {
+                "enable": true,
+                "speed": 8,
+                "direction": "none",
+                "random": false,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false,
+                "attract": {
+                    "enable": false,
+                    "rotateX": 600,
+                    "rotateY": 1200
+                }
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": {
+                    "enable": false,
+                    "mode": "repulse"
+                },
+                "onclick": {
+                    "enable": false,
+                    "mode": "push"
+                },
+                "resize": true
+            },
+            "modes": {
+                "grab": {
+                    "distance": 800,
+                    "line_linked": {
+                        "opacity": 1
+                    }
+                },
+                "bubble": {
+                    "distance": 800,
+                    "size": 80,
+                    "duration": 2,
+                    "opacity": 0.8,
+                    "speed": 3
+                },
+                "repulse": {
+                    "distance": 400,
+                    "duration": 0.4
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
+                }
+            }
+        },
+        "retina_detect": true
+    });
+</script>
+
+
+</html>

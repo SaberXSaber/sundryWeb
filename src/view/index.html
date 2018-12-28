@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- Mirrored from www.zi-han.net/theme/hplus/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jan 2016 14:20:37 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <title>个人平台</title>
+    <meta name="keywords" content="个人平台">
+    <meta name="description" content="个人平台">
+    <!--[if lt IE 9]>
+    <meta http-equiv="refresh" content="0;ie.html" />
+    <![endif]-->
+    <link rel="../shortcut icon" href="favicon.ico">
+    <link href="../static/css/bootstrap.min14ed.css" rel="stylesheet">
+    <link href="../static/css/font-awesome.min93e3.css" rel="stylesheet">
+    <link href="../static/css/animate.min.css" rel="stylesheet">
+    <link href="../static/css/style.min862f.css" rel="stylesheet">
+</head>
+
+<body class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
+    <div id="wrapper" v-cloak>
+        <!--左侧导航开始-->
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="nav-close"><i class="fa fa-times-circle"></i>
+            </div>
+            <div class="sidebar-collapse">
+                <ul class="nav" id="side-menu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                               <span class="block m-t-xs"><strong class="font-bold">您好，{{UserName}}</strong></span>
+                            </a>
+                            <div style="margin-top: 30px;font-size: 20px;">
+                                <a  title="修改密码" @click="updatepwd()" style="    margin-right: 3px;" ><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+                                <!--<a title="站内信" @click=""> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a>-->
+                                <!--<a title="刷新" @click="refresh()"style="    margin-right: 3px;"> <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></a>-->
+                                <!--<a title="锁定" @click="lockPage()"style="    margin-right: 3px;"> <span class="glyphicon glyphicon-lock" aria-hidden="true"></span></a>-->
+                                <a title="退出" @click="cancel()" style="    margin-right: 3px;"> <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span></a>
+                            </div>
+                        </div>
+                    </li>
+                    <!--<li v-for="demos in demoList">-->
+
+
+                    <li >
+                        <a href="#">
+                            <span class="nav-label">财务</span>
+                            <span class="fa arrow"></span>
+                        </a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a class="J_menuItem" href="./basesetting/operator.html" data-index="1">操作人员</a>
+                            </li>
+                            <li>
+                                <a class="J_menuItem" href="./basesetting/right.html" data-index="2">权限管理</a>
+                            </li>
+                            <li>
+                                <a class="J_menuItem" href="./basesetting/systemLog.html" data-index="3">操作日志</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li >
+                        <a href="#">
+                            <span class="nav-label">财经</span>
+                            <span class="fa arrow"></span>
+                        </a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a class="J_menuItem" href="./finance/fund.html" data-index="4">基金</a>
+                            </li>
+                            <li>
+                                <a class="J_menuItem" href="./finance/shares.html" data-index="5">股票</a>
+                            </li>
+                            <li>
+                                <a class="J_menuItem" href="./finance/ranking.html" data-index="6">排行</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--左侧导航结束-->
+        <!--右侧部分开始-->
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+            <div class="row content-tabs">
+                <button class="roll-nav roll-left J_tabLeft"><i class="fa fa-backward"></i>
+                </button>
+                <nav class="page-tabs J_menuTabs">
+                    <div class="page-tabs-content">
+                        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#" style="display: none;"><i class="fa fa-bars"></i> </a>
+                        <a href="javascript:;" class="active J_menuTab" data-id="index_v1.html">首页</a>
+                    </div>
+                </nav>
+                <button class="roll-nav roll-right J_tabRight"><i class="fa fa-forward"></i>
+                </button>
+                <div class="btn-group roll-nav roll-right">
+                    <button class="dropdown J_tabClose" data-toggle="dropdown">关闭操作<span class="caret"></span>
+
+                    </button>
+                    <ul role="menu" class="dropdown-menu dropdown-menu-right">
+                        <li class="J_tabShowActive"><a>定位当前选项卡</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li class="J_tabCloseAll"><a>关闭全部选项卡</a>
+                        </li>
+                        <li class="J_tabCloseOther"><a>关闭其他选项卡</a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="roll-nav roll-right J_tabExit"  @click="cancel()"><i class="fa fa fa-sign-out"></i> 退出</a>
+            </div>
+            <div class="row J_mainContent" id="content-main">
+                <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="default.html" frameborder="0" data-id="index_v1.html" seamless></iframe>
+            </div>
+        </div>
+        <!--右侧部分结束-->
+    </div>
+    <script src="../static/js/jquery.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/plugins/layermax/layer.js"></script>
+    <script src="../static/js/lib/vue.min.js"></script>
+    <script src="../static/js/common.js"></script>
+    <script src="../static/js/lib/md5.js"></script>
+    <script src="../static/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="../static/js/index.js"></script>
+</body>
+
+
+<!-- Mirrored from www.zi-han.net/theme/hplus/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jan 2016 14:20:37 GMT -->
+</html>

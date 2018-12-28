@@ -1,0 +1,108 @@
+#particles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    background-color: #fff;
+}
+
+.form{ position: relative;}
+
+.form img{ position: absolute; width: 70px; height: 30px; right: 10px; bottom: 9px; cursor: pointer;}
+
+.form input.noBottomBorder{
+    border-bottom: none;
+}
+
+.form input{
+    line-height: 19px;
+    color: #555;
+    background: #fff;
+    padding: 1em .8em;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 14px;
+    border: 1px solid #CCCCCC;
+}
+
+.form input.noTopBorder{
+     border-top: none;
+}
+
+.btn{
+    display: block;
+    padding: 0;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 30px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    background: #1ab394;
+    box-shadow: none;
+    border: 0;
+    border-radius: 3px;
+    line-height: 41px;
+    cursor: pointer;
+}
+
+.phone-login{
+    padding: 0;
+    font-size: 14px;
+    color: #5ca5e8;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+}
+
+button.fr{ float: right;}
+
+.link{
+    font-size: 14px;
+    color: #555;
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.ycmedia{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+}
+
+.ycmedia h1{
+    font-size: 0;
+    width: 300px;
+    height: 30px;
+    background: url("../img/oalogin-bg.png") no-repeat;
+    margin-bottom: 30px;
+}
+
+.downloadApp{
+    margin-top: 30px;
+    display: block;
+    padding: 0;
+    width: 100%;
+    height: 41px;
+    line-height: 39px;
+    color: #5fa6e5;
+    background: 0 0;
+    border: 1px solid #96c2e9;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: 0;
+    font-size: 14px;
+}

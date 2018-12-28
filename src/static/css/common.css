@@ -1,0 +1,93 @@
+﻿/* 
+ * 全局css样式 by Yunior 2015.4.29
+ *  */
+
+/* Reset CSS */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td,embed,i,span,a {
+    padding: 0;
+    margin: 0;
+}
+a,a:visited,a:hover{text-decoration:none;outline: none;color:#4a4a4a;}
+table {
+    border-spacing: 0;
+}
+input[type=checkbox],input[type=radio]{cursor: pointer;}
+
+input::-webkit-input-placeholder{
+   line-height: 28px;
+}    /* 使用webkit内核的浏览器 */
+input:-moz-placeholder{
+    line-height: 28px;
+}                  /* Firefox版本4-18 */
+input::-moz-placeholder{
+    line-height: 28px;
+}                  /* Firefox版本19+ */
+input:-ms-input-placeholder{
+    line-height: 28px;
+}           /* IE浏览器 */
+
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var,i {
+    font-weight: normal;
+    font-style: normal;
+}
+strong{
+	font-weight: bold;
+}
+ol,ul,li{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+caption,th {
+    text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin:0;
+    padding:0;
+    color:#444;
+}
+[v-cloak] {
+    display: none;
+}
+/* 默认样式 */
+
+body{font-family: 宋体,"microsoft yahei",simhei,sans-serif;font-size:12px;line-height:1.6em;color:#4a4a4a;}
+
+div.wraper-full{ padding: 5px;}
+
+.block_css{ display: inline-block; margin-bottom: 10px; padding: 0px; width: 200px;}
+.block_css input[type=text]{ width: 200px;}
+.block_css input[type=password]{ width: 200px;}
+.block_css input[type=radio]{ vertical-align: top;}
+.box-content{ padding-top: 20px;}
+.cent_div{ text-align: center;}
+.left_div{ text-align: left;}
+.control-label{ display: inline-block; width: 130px; text-align: right;}
+.submit_button{ margin-left: 135px; margin-top: 20px;}
+.err-input{ border-color: red;}
+#parent_chosen .err-input{ border-color: red;}
+.chosen-container-single .err-input{ border-color: red;}
+div.jur-div{ display: inline-block; vertical-align: top;}
+div.jur-div label{ line-height: 26px;}
+div.jur-div .block_css{ height: 25px; margin-bottom: 0px; float: right; margin-left: 8px;}
+#parentUp_chosen{ margin-right: 0px;}
+#parentDown_chosen{ margin-right: 0px;}
+div.marno{ margin-bottom: 0px;}
+div.form-group{ min-width: 1100px;}
+div.search_div{ display: inline-block; width: 280px; margin-bottom: 5px;}
+div.search_div label{ display: inline-block; width: 70px; text-align: right}
+div.search_div .block_css{ padding: 0px;}
+#IsWork_chosen{ margin-right: 0px; margin-top: -2px;}
+#Status_chosen{ margin-right: 0px; margin-top: -2px;}
+.block_css input.short_input{ width: 170px;}
+span.icon_span{ font-size: 16px; vertical-align: middle; cursor: pointer;}
+input.child_input{ width: 150px;}
+div.child_div_search{ width: 240px;}
+
+.render_a{margin: 0px; padding: 0px; color: black; font-size: 16px;}

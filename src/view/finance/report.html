@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <title>股票查看</title>
+
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <link href="../../static/css/common.css" rel="stylesheet" />
+
+    <link href="../../static/css/bootstrap.min14ed.css" rel="stylesheet">
+
+    <link href="../../static/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+
+    <link href="../../static/css/plugins/bootstrap-table/bootstrap-table.min.css" rel="stylesheet">
+
+    <link href="../../static/css/animate.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../../static/js/lib/mmGrid/mmGrid.css">
+
+    <link rel="stylesheet" type="text/css" href="../../static/js/lib/mmGrid/mmPaginator.css">
+
+    <link href="../../static/css/style.min862f.css?v=4.1.0" rel="stylesheet">
+
+    <!--下拉搜索框-->
+    <link rel="stylesheet" href="../../static/js/lib/choseSelect/chosen.css" />
+
+    <script src="../../static/js/lib/jquery.min.js"></script>
+
+    <script src="../../static/js/lib/vue.min.js"></script>
+
+    <script src="../../static/js/lib/layer/layer.js"></script>
+
+
+    <script src="../../static/js/lib/choseSelect/chosen.jquery.min.js"></script>
+
+    <script src="../../static/js/lib/jquery.nicescroll.min.js"></script>
+
+    <!--表格-->
+    <script type="text/javascript" src='../../static/js/lib/jquery.nicescroll.min.js'></script>
+
+    <script type="text/javascript" src="../../static/js/lib/mmGrid/yc.grid.paginator.js"></script>
+
+    <!--日历插件-->
+    <link rel="stylesheet" href="../../static/js/lib/dateRange/jQuery.pickerDateRange.css" />
+    <script type="text/javascript" src="../../static/js/lib/dateRange/jQuery.pickerDateRange.js"></script>
+    <script type="text/javascript" src="../../static/js/lib/dateRange/moment.js"></script>
+
+    <script type="text/javascript" src="../../static/js/lib/echart/echarts.min.js"></script>
+    <script type="text/javascript" src="../../static/js/lib/echart/macarons.js"></script>
+
+    <script src="../../static/js/common.js"></script>
+    <script src="../../static/js/finance/report.js"></script>
+
+
+    <style>
+        .chosen-container-single .chosen-single div b{ background-position: 0px 3px;}
+        #parentUp_chosen{ margin-top: -2px;}
+        #parentDown_chosen{ margin-top: -2px;}
+    </style>
+
+</head>
+
+<body>
+
+<!--  内容区域  -->
+<div id='pageinit' v-cloak>
+
+    <div class="wraper-full animated fadeInRight">
+        <div class="container">
+            <div class="row">
+                <div id="Bar" style="width: 1000px;height:600px;"></div>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+
+    $(function(){
+        BaseJs.ReportView()
+//        getInfo(BaseJs.ProjectView,limitRole.projectview)
+
+    });
+
+</script>
